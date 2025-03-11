@@ -14,6 +14,8 @@ groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # Selecting models for llm
 models = ["gemma2-9b-it","mixtral-8x7b-32768","llama-3.3-70b-versatile"]
+# 0 for gemma2, 1 for mixtral, 2 for llama3.3 
+model = models[0]
 
 # Initialize the database, here it is postgres
 def init_database(user: str, password: str, host: str, port: str, database: str) -> SQLDatabase:
@@ -49,7 +51,7 @@ def get_sql_chain(db):
     """
     prompt = ChatPromptTemplate.from_template(role= "user",template=template)
     
-    llm = ChatGroq(api_key = groq_api_key, model_name= models[0])
+    llm = ChatGroq(api_key = groq_api_key, model_name= model)
 
     def get_schema(_):
         return db.get_table_info()
