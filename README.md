@@ -1,4 +1,7 @@
-# SQLMind [for Render](https://sqlmind.streamlit.app/) & [for local](https://sigiiz-sqlmind.hf.space/)
+# SQLMind 
+&nbsp;&nbsp;&nbsp;Online live: [Render](https://sqlmind.streamlit.app/) <br/>
+&nbsp;&nbsp;&nbsp;&<br/>
+&nbsp;&nbsp;&nbsp;Local demo: [local](https://sigiiz-sqlmind.hf.space/)<br/>
 
 SQLMind is an intelligent SQL chatbot that converts natural language questions into SQL queries and provides human-readable responses. It leverages LangChain, Groq-powered LLMs, and Streamlit for an interactive web-based experience.
 
@@ -6,9 +9,9 @@ The local implementation of the project will be provided below while: <br />
 
 ### [Hosted](https://sqlmind.streamlit.app/): <br />
 
-&nbsp;&nbsp;&nbsp;The hosted stremlit app contains [Render](https://render.com/) postgres database of the same locally hosted database. Render provides free but limited resources for online database so while all the credentials are open, the password is not. This exists just to show the hosted project and its appearance. <br />
+&nbsp;&nbsp;&nbsp;The hosted stremlit app contains [Render](https://render.com/) postgres database of the same locally hosted database. The dbdamdum has tbl_phones <br />
 
-The local implementation is in [Implementation](#implementation)
+The local implementation is in [Implementation](#implementation) made using Huggingface-Spaces and hosted from it.
 
 ## Features
 
@@ -46,7 +49,7 @@ Or, you can use install.txt file to view the libraries used.
 
 ## Configuration
 
-Ensure your PostgreSQL credentials are set up correctly in the UI before starting a conversation.
+Ensure your PostgreSQL credentials are set up correctly in the UI before starting a conversation. My credentials are available there too. Donot exhaust these resources.
 
 ## Running the Web App
 
