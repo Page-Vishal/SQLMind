@@ -1,4 +1,4 @@
-# SQLMind [for Render](https://sqlmind.streamlit.app/) [for local](https://sigiiz-sqlmind.hf.space/)
+# SQLMind [for Render](https://sqlmind.streamlit.app/) & [for local](https://sigiiz-sqlmind.hf.space/)
 
 SQLMind is an intelligent SQL chatbot that converts natural language questions into SQL queries and provides human-readable responses. It leverages LangChain, Groq-powered LLMs, and Streamlit for an interactive web-based experience.
 
