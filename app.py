@@ -114,7 +114,7 @@ with st.sidebar:
     st.write("Connect with the database and converse")
     st.text_input("Host",value="localhost" ,key="Host")
     st.text_input("User",value="postgres" ,key="User")
-    st.text_input("Password",type="password",value="VwZgJfG6cPjFbqLO4ojysHpdg8DUBsRW" ,key="Password")
+    st.text_input("Password",type="password",value="sigdel" ,key="Password")
     st.text_input("Port",value="8080" ,key="Port")
     st.text_input("Database",value="db_phone" ,key="Database")
 
