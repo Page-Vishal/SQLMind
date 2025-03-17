@@ -65,7 +65,7 @@ This project is a miniature part of my chatbot project for a mobile phone compan
 &nbsp;&nbsp;&nbsp;The database is a knock-off for exisitng mobile phone comapny. Mobile phones have a lot of specs which makes it go-to idea for frontend and database based projects. More complex relationships will be added later.
 
 ## Database Structure
-
+The databse file can be found as [dataEntry.sql](./dataEntry.sql)
 ```
 damdum_server/
 └── db_phone/
