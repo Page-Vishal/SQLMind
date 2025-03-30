@@ -4,6 +4,8 @@
 &nbsp;&nbsp;&nbsp;Local demo: [local](https://sigiiz-sqlmind.hf.space/)<br/>
 
 SQLMind is an intelligent SQL chatbot that converts natural language questions into SQL queries and provides human-readable responses. It leverages LangChain, Groq-powered LLMs, and Streamlit for an interactive web-based experience.
+<hr />
+
 
 The local implementation of the project will be provided below while: <br />
 
