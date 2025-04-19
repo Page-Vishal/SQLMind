@@ -1,5 +1,5 @@
 # SQLMind 
-&nbsp;&nbsp;&nbsp;Online live: [Render](https://sqlmind.streamlit.app/) <br/>
+&nbsp;&nbsp;&nbsp;Online live: [Aiven](https://sqlmind.streamlit.app/) <br/>
 &nbsp;&nbsp;&nbsp;&<br/>
 &nbsp;&nbsp;&nbsp;Local demo: [local](https://sigiiz-sqlmind.hf.space/)<br/>
 
@@ -12,7 +12,7 @@ The local implementation of the project will be provided below while: <br />
 
 ### [Hosted](https://sqlmind.streamlit.app/): <br />
 
-&nbsp;&nbsp;&nbsp;The hosted stremlit app contains [Render](https://render.com/) postgres database of the same locally hosted database. The dbdamdum has tbl_phones <br />
+&nbsp;&nbsp;&nbsp;The hosted stremlit app contains [Aiven](https://aiven.io/) postgres database of the same locally hosted database. The dbdamdum has tbl_phones <br />
 
 The local implementation is in [Implementation](#implementation) made using Huggingface-Spaces and hosted from it.
 
